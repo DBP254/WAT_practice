@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Recent Work</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+    <style>
+        body {
+            font-family: 'Aerial', sans-serif;
+            background-color: #f5f5f5; 
+        }
+        
+ 
+        .navbar {
+            background-color: #222; 
+        }
+        .navbar-item,
+        .navbar-brand .navbar-item {
+            color: #fff;
+            font-weight: 500;
+        }
+        .navbar-item:hover {
+            background-color: #444;
+            color: #fff;
+        }
+
+        .navbar-item.is-active-portfolio {
+            background-color: #4a4a4a; 
+            color: #fff;
+            font-weight: 600;
+        }
+
+       
+        .image-wrapper {
+            position: relative;
+            padding-bottom: 75%; 
+            height: 0;
+            overflow: hidden;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            margin-bottom: 1rem;
+        }
+
+       
+        .project-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+      
+        .project-title {
+            color: #3273dc;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="container is-max-desktop">
+            <div class="navbar-brand">
+                <!-- Logo with small placeholder icon -->
+                <a class="navbar-item is-size-5 has-text-weight-bold" href="#">
+                    <span class="icon mr-2 has-text-info">
+              
+                        <i class="fas fa-gem"></i>
+                        <img src="logo.webp" alt="Logo Icon" class="is-rounded" style="width:24px; height: 24px;">
+                    </span>
+                    Logo
+                </a>
+            </div>
+
+            <div class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#">About</a>
+                    <a class="navbar-item" href="#">Services</a>
+                    <!-- Active link style for Portfolio -->
+                    <a class="navbar-item is-active-portfolio" href="#">Portfolio</a>
+                </div>
+
+        
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Title Section -->
+    <section class="section pt-5 pb-4">
+        <div class="container is-max-desktop">
+            <!-- Main Title -->
+            <h1 class="title is-2 has-text-dark mb-1">Portfolio</h1>
+            <!-- Subtitle View -->
+            <h2 class="subtitle is-4 has-text-grey-dark" style="border-bottom: 2px solid #3273dc; display: inline-block;">Recent Work</h2>
+        </div>
+    </section>
+
+   
+    <section class="section pt-0">
+        <div class="container is-max-desktop">
+   
+            <div class="columns is-multiline is-variable is-6">
+
+                <!-- Title 1 -->
+                <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                    <div class="image-wrapper">
+                        
+                        <img src="1st.webp" alt="Ants on grass" class="project-image" />
+                    </div>
+                    <h2 class="title is-5 project-title">Peaceful</h2>
+                    <p class="is-size-6 has-text-grey-dark">
+                        The vivid yet calm environment that gives you a soothing presence of a heavenly blessings.
+                    </p>
+                </div>
+
+                <!-- Title 2  -->
+                <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                    <div class="image-wrapper">
+                        
+                        <img src="2nd.webp" alt="Sunset over water" class="project-image" />
+                    </div>
+                    <h2 class="title is-5 project-title">Vivid</h2>
+                    <p class="is-size-6 has-text-grey-dark">
+                        The heavenly feel of the clouds and the sunset is just mindblowing. Could not even describe the feeling of these moments.
+                    </p>
+                </div>
+
+                <!-- Title 3 -->
+                <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                    <div class="image-wrapper">
+                       
+                        <img src="3rd.webp" alt="Rocky coastline" class="project-image" />
+                    </div>
+                    <h2 class="title is-5 project-title">Timid</h2>
+                    <p class="is-size-6 has-text-grey-dark">
+                        Just a casual text that could not describe the magnimousity of the image. The lakeside view of the sunset and the cherry blossom trees. Just wow.
+                    </p>
+                </div>
+
+                <!-- Title 4 -->
+                <div class="column is-full-mobile is-half-tablet is-half-desktop">
+                    <div class="image-wrapper">
+                        
+                        <img src="4th.webp" alt="Autumn park scene" class="project-image" />
+                    </div>
+                    <h2 class="title is-5 project-title">Dark</h2>
+                    <p class="is-size-6 has-text-grey-dark">
+                        Upon yielding, kind sea subdue very seed sixth them lesser one lesser there earth days were multiply so sixth gathering fifth that man fowl made.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

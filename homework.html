@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talk Rat Talk</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
+  <style>
+    html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color:#d4c157;
+}
+    .logo {
+      width: 120px;
+      height: 120px;
+      background-color: #20b2aa;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-placeholder {
+      width: 80%;
+      height: 80%;
+      background-color: #fff;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .logo-placeholder img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-image img {
+      border-radius: 50%;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header with logo, title, and tagline -->
+  <section class="section has-background-warning">
+    <div class="container">
+      <div class="columns is-vcentered is-mobile">
+        <div class="column is-narrow">
+          <div class="logo">
+            <div class="logo-placeholder">
+              <img src="talk-rat-talk-logo.svg" alt="Logo" />
+            </div>
+          </div>
+        </div>
+        <div class="column has-text-centered">
+          <h1 class="title is-2 has-text-dark"><b><u>Talk Rat Talk</u></b></h1>
+          <p class="is-italic has-text-grey">Cheesin' through life one nibble at a time</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- For nav bar and its buttons -->
+  <section class="section has-background-warning-light">
+    <div class="container">
+      <div class="buttons is-centered">
+        <button class="button is-dark">Rattus Adventures</button>
+        <button class="button is-dark">Nibbles and Leafs</button>
+        <button class="button is-dark">Tail End Stories</button>
+        <button class="button is-dark">Cat Napped</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Subtitle  -->
+  <section class="section has-background-warning">
+    <div class="container">
+      <h2 class="title is-4 has-text-info">Rat-ified means I squeaked approval</h2>
+    </div>
+  </section>
+
+  <!--  For Main content : sidebar + cards -->
+  <section class="section has-background-warning">
+    <div class="container">
+      <div class="columns">
+
+        <!--  Sidebar -->
+      <!-- Sidebar: narrower and vertically centered -->
+<div class="column is-3 is-flex is-justify-content-center is-align-items-center">
+  <div class="box has-background-light p-5" style="width: 220px; margin-top: 60px;">
+    <figure class="image is-128x128 mx-auto mb-4">
+  <img src="joke_rat.png" alt="Sidebar Rat" class="is-rounded">
+</figure>
+    <h2 class="title is-5 has-text-dark has-text-centered">Joke of the Day</h2>
+    <p class="has-text-grey has-text-centered">Why did the rat sit on the clock?</p>
+    <p class="has-text-grey has-text-centered">Because he wanted to be on time!</p>
+  </div>
+</div>
+
+        <!--  Content cards grid -->
+        <div class="column">
+          <div class="columns is-multiline is-variable is-4">
+
+            <!--  Card 1 -->
+            <div class="column is-half">
+              <div class="card has-background-light">
+                <div class="card-content">
+                  <h3 class="title is-4 has-text-centered">Rattus Adventures</h3>
+                  <figure class="image is-128x128 mx-auto mb-4">
+                 <img src="pet_rat.png" alt="Adventure Rat" class="is-rounded">
+                </figure>
+                  <p class="subtitle is-6 has-text-centered">Rats and their adventures in the great indoors!</p>
+                  <ul>
+                    <li>Exploring new cardboard box castles</li>
+                    <li>Mastering the art of the midnight snack raid</li>
+                    <li>Building epic tunnels in the couch cushions</li>
+                    <li>Hosting secret dance parties when humans aren't looking</li>
+                    <li>Perfecting the "puppy dog eyes" for extra treats</li>
+                    <li>Training for the Rat Olympics: Synchronized swimming in the water bowl</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--  Card 2 -->
+            <div class="column is-half">
+              <div class="card has-background-light">
+                <div class="card-content">
+                  <h3 class="title is-4 has-text-centered">Nibbles and Leafs</h3>
+                  <figure class="image is-128x128 mx-auto mb-4">
+                    <img src="chef_rat.png" alt="Nibbles Rat" class="is-rounded">
+                  </figure>
+                  <p class="subtitle is-6 has-text-centered">Creative snacks for the discerning rat!</p>
+                  <ul>
+                    <li>Cheese platter with a side of adventure</li>
+                    <li>Gourmet seed mix with a hint of mystery</li>
+                    <li>Fresh veggies from the garden (with a dash of mischief)</li>
+                    <li>Miniature fruit salad for the sweet tooth</li>
+                    <li>Homemade ratatouille (rat-style)</li>
+                    <li>Chocolate-covered sunflower seeds (for special occasions)</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--  Card 3 -->
+            <div class="column is-half">
+              <div class="card has-background-light">
+                <div class="card-content">
+                  <h3 class="title is-4 has-text-centered">Tail End Stories</h3>
+                  <figure class="image is-128x128 mx-auto mb-4">
+                 <img src="elf_rat.png" alt="Fashion Rat" class="is-rounded">
+                </figure>
+                  <p class="subtitle is-6 has-text-centered">Fashionista Rats: Always in Style!</p>
+                  <ul>
+                    <li>Seasonal wardrobe updates</li>
+                    <li>Accessorizing with tiny hats and scarves</li>
+                    <li>Strutting the latest trends</li>
+                    <li>DIY fashion projects</li>
+                    <li>Hosting fashion shows</li>
+                    <li>Mixing and matching patterns</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--  Card 4 -->
+            <div class="column is-half">
+              <div class="card has-background-light">
+                <div class="card-content">
+                  <h3 class="title is-4 has-text-centered">Cat Napped</h3>
+                  <figure class="image is-128x128 mx-auto mb-4">
+                <img src="cat_alert.png" alt="Cat Alert" class="is-rounded">
+                </figure>
+                  <p class="subtitle is-6 has-text-centered">Latest Warnings: Watch out Kittys out!</p>
+                  <ul>
+                    <li>Cat on the prowl</li>
+                    <li>Sharp claws are back in action</li>
+                    <li>Stealthy Stalker</li>
+                    <li>Sudden Movements</li>
+                    <li>Unpredictable Behaviour</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!--  Footer with buttons -->
+  <footer class="footer has-background-dark">
+    <div class="content has-text-centered">
+      <div class="buttons is-centered">
+        <a class="button is-danger" href="#">Subscribe</a>
+        <a class="button is-light" href="#">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
